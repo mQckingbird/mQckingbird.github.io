@@ -16,7 +16,7 @@ font-size:24px;
 	left: 32%
 }
 .textile a {text-decoration:none;}</style></head><body>
-<div class="textile"><a href="https://matikbird.github.io/textile" target="_blank">Download Textile for Windows & Linux</a></div><script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js'></script><script src='http://threejs.org/examples/js/controls/OrbitControls.js'></script>
+<div class="textile"><a href="https://matikbird.github.io/textile" target="_blank">Download Textile for Windows & Linux</a></div><script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js'></script><script src='https://threejs.org/examples/js/controls/OrbitControls.js'></script>
 <script>	var scene, camera, renderer, controls;
 
 	init();
@@ -45,7 +45,7 @@ font-size:24px;
 			controls = new THREE.OrbitControls(camera, renderer.domElement);
 			  controls.damping = 0.2;
   controls.maxDistance = 900;
-			logotextile.load('http://res.cloudinary.com/http-matikbird-com/raw/upload/v1474272620/textile_xus54r.json', function(geometry){
+			logotextile.load('https://res.cloudinary.com/http-matikbird-com/raw/upload/v1474272620/textile_xus54r.json', function(geometry){
 				var material = new THREE.MeshLambertMaterial({color: 0x558663});
 				mesh = new THREE.Mesh(geometry, material);
 				mesh.material.color.setHex( 0x996600 );
