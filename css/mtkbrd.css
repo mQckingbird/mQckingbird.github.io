@@ -19,6 +19,11 @@ fb--chat__icon {
 .fb--chat__icon svg {
   transition: opacity 160ms ease-in-out;
 }
+.fb--chat__icon {
+  position:fixed;
+  bottom:0;
+  right:0;
+}
 .fb--chat__icon svg#close-icon {
   width: 19px;
   height: 19px;
@@ -43,7 +48,6 @@ fb--chat__icon {
 
 .fb-chat-btn__opend {
   transform: rotate(0deg);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 2px 32px rgba(0, 0, 0, 0.26);
 }
 
 .fb-chat {
