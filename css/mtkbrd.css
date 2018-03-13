@@ -2,8 +2,8 @@
 fb--chat__icon {
   z-index: 9999;
   position: fixed;
-  bottom: 21px;
-  right: 21px;
+  bottom: -15px;
+  right: -15px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -23,12 +23,13 @@ fb--chat__icon {
   position:fixed;
   bottom:0;
   right:0;
+  z-index:8888;
 }
 .fb--chat__icon svg#close-icon {
   width: 19px;
   height: 19px;
-  top: 21px;
-  left: 21px;
+  top: 0;
+  left: 0;
   opacity: 0;
   position: absolute;
 }
