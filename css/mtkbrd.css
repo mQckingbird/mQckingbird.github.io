@@ -15,7 +15,7 @@
   transform: rotate(-50deg);
   transition: all 160ms ease-in-out;
   cursor: pointer;
-}
+} 
 .fb--chat__icon svg {
   transition: opacity 160ms ease-in-out;
 }
