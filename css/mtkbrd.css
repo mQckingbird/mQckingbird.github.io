@@ -107,15 +107,11 @@
 @import url(https://fonts.googleapis.com/css?family=Paytone+One);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Bevan);
-body {
-  background: #f0c40f
-}
 
 #top,
 #bottom,
 #left,
 #right {
-  background: #877117;
   position: fixed;
   margin: 0;
   padding: 0;
@@ -151,16 +147,6 @@ body {
   bottom: 0;
 }
 
-.text {
-  color: white;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  font: 400 18vw/1.1 Bevan, sans-serif;
-  text-shadow: -0.0375em 0 0 rgba(48, 48, 48, 0.1);
-  letter-spacing: -.125em;
-}
-
 .respon {
   text-align: center;
   position: relative;
@@ -168,7 +154,7 @@ body {
   padding-bottom: 0;
   margin: 10px;
   font-size: 16px;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 
 #techList {
