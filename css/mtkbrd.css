@@ -104,3 +104,299 @@
   top: 14px;
   position: absolute;
 }
+@import url(https://fonts.googleapis.com/css?family=Paytone+One);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Bevan);
+body {
+  background: #f0c40f
+}
+
+#top,
+#bottom,
+#left,
+#right {
+  background: #877117;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 10px;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+#top,
+#bottom {
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+
+#top {
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
+}
+
+.text {
+  color: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font: 400 18vw/1.1 Bevan, sans-serif;
+  text-shadow: -0.0375em 0 0 rgba(48, 48, 48, 0.1);
+  letter-spacing: -.125em;
+}
+
+.respon {
+  text-align: center;
+  position: relative;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin: 10px;
+  font-size: 16px;
+  font-size: 2.5vw;
+}
+
+#techList {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #EBEBEB;
+}
+
+.faw {
+  opacity: 0.5;
+  color: #1c1e20;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#techList li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.html5 {
+  font-weight: 700;
+  letter-spacing: -.05em;
+  -webkit-transform: scale(7.5, 7.8) translate(1.18em, .68em);
+  -moz-transform: scale(7.5, 7.8) translate(1.18em, .68em);
+}
+
+.javascript {
+  color: #1c1e20;
+  letter-spacing: -.04em;
+  font-weight: 400;
+  -webkit-transform: scale(1.6) rotate(90deg) translate(3.40em, -11.45em);
+  -moz-transform: scale(1.6) rotate(90deg) translate(3.40em, -11.45em);
+}
+
+.accessibility {
+  color: #fff;
+  letter-spacing: -.05em;
+  font-weight: 300;
+  -webkit-transform: scale(1.43, 1.55) rotate(90deg) translate(3.6em, -18.07em);
+  -moz-transform: scale(1.43, 1.55) rotate(90deg) translate(4.1em, -18.07em);
+}
+
+.responsive {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: -.03em;
+  word-spacing: .3em;
+  -webkit-transform: scale(2.15) translate(2.55em, 4.7em);
+  -moz-transform: scale(2.15) translate(2.55em, 4.17em);
+}
+
+.usability {
+  color: #A4A29D;
+  font-weight: 400;
+  letter-spacing: -.04em;
+  -webkit-transform: scale(2.95, 3.30) translate(7.05em, 3.23em);
+  -moz-transform: scale(2.95, 3.30) translate(7.05em, 3.25em);
+}
+
+.ajax {
+  color: #fff;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  -webkit-transform: scale(2.40, 2.35) rotate(90deg) translate(5.80em, -5.85em);
+  -moz-transform: scale(2.40, 2.35) rotate(90deg) translate(5.80em, -5.85em);
+}
+
+.css3 {
+  color: #1c1e20;
+  letter-spacing: .01em;
+  font-weight: 700;
+  -webkit-transform: scale(6.8, 6.75) rotate(90deg) translate(1.32em, -4.54em);
+  -moz-transform: scale(6.8, 6.75) rotate(90deg) translate(1.32em, -4.54em);
+}
+
+.jquery {
+  letter-spacing: 0.045em;
+  font-weight: 700;
+  -webkit-transform: scale(3.88, 3.8) translate(5.42em, 3.72em);
+  -moz-transform: scale(3.88, 3.8) translate(5.42em, 3.72em);
+}
+
+.designsense {
+  color: #1c1e20;
+  font-weight: 700;
+  letter-spacing: -.010em;
+  -webkit-transform: scale(2.25, 1.9) translate(2.10em, 6.45em);
+  -moz-transform: scale(2.25, 1.9) translate(2.10em, 6.45em);
+}
+
+.wordpress {
+  color: #A4A29D;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  -webkit-transform: scale(2.70, 3) translate(1.95em, 4.90em);
+  -moz-transform: scale(2.70, 3) translate(1.95em, 4.90em);
+}
+
+.seo {
+  color: #A4A29D;
+  font-weight: 400;
+  letter-spacing: -0.07em;
+  -webkit-transform: scale(4.50, 4.0) translate(5.2em, .95em);
+  -moz-transform: scale(4.50, 4.0) translate(5.2em, .95em);
+}
+
+.crossbrowser {
+  font-weight: 700;
+  letter-spacing: -0.07em;
+  word-spacing: .2em;
+  -webkit-transform: scale(2) translate(2.20em, 10.40em);
+  -moz-transform: scale(2) translate(2.20em, 10.40em);
+}
+
+.webstandards {
+  font-weight: 300;
+  letter-spacing: 0em;
+  word-spacing: .1em;
+  -webkit-transform: scale(2) translate(12.8em, 8.5em);
+  -moz-transform: scale(2) translate(12.8em, 8.5em);
+}
+
+.our {
+  color: #ee5d29;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  -webkit-transform: scale(3.30) translate(7.05em, 2.24em);
+  -moz-transform: scale(3.30) translate(7.05em, 2.24em);
+}
+
+.skills {
+  color: #ee5d29;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  -webkit-transform: scale(4) translate(4.40em, 5.00em);
+  -moz-transform: scale(4) translate(4.40em, 5.00em);
+}
+
+.php {
+  color: #1c1e20;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  -webkit-transform: scale(2.4, 2.3) rotate(90deg) translate(7.8em, -0.70em);
+  -moz-transform: scale(2.4, 2.3) rotate(90deg) translate(7.8em, -0.70em);
+}
+
+.mysql {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  -webkit-transform: scale(2.85, 3.95) translate(2.0em, 4.55em);
+  -moz-transform: scale(2.85, 3.95) translate(2.00em, 4.55em);
+}
+
+.cms {
+  color: #1c1e20;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  -webkit-transform: scale(2, 2.1) rotate(90deg) translate(9.5em, -12.10em);
+  -moz-transform: scale(2, 2.1) rotate(90deg) translate(9.5em, -12.10em);
+}
+
+.project {
+  color: #1c1e20;
+  font-weight: 300;
+  letter-spacing: -.03em;
+  word-spacing: 0em;
+  -webkit-transform: scale(1.67) translate(7.47em, 10.23em);
+  -moz-transform: scale(1.67) translate(7.47em, 10.23em);
+}
+
+.joomla {
+  color: #A4A29D;
+  font-weight: 400;
+  letter-spacing: -0.1em;
+  -webkit-transform: scale(3.40, 4.20) translate(8.55em, 4.75em);
+  -moz-transform: scale(3.40, 4.20) translate(8.55em, 4.75em);
+}
+
+.server {
+  color: #1c1e20;
+  -webkit-transform: scale(1.1) translate(6.90em, 20.70em);
+  -moz-transform: scale(1.1) translate(6.90em, 20.70em);
+}
+
+.retina {
+  color: #fff;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  -webkit-transform: scale(1, 1.5) rotate(90deg) translate(16.00em, -19.59em);
+  -moz-transform: scale(1, 1.5) rotate(90deg) translate(16.00em, -19.59em);
+}
+
+.animation {
+  font-weight: 700;
+  letter-spacing: 0em;
+  -webkit-transform: scale(3, 4.35) translate(8.70em, 5.55em);
+  -moz-transform: scale(3, 4.35) translate(8.70em, 5.55em);
+}
+
+.pixelperfect {
+  color: #A4A29D;
+  font-weight: 700;
+  letter-spacing: 0em;
+  -webkit-transform: scale(2.15, 2.50) translate(2.95em, 9.95em);
+  -moz-transform: scale(2.15, 2.50) translate(2.95em, 9.95em);
+}
+
+.ecommerce {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0em;
+  -webkit-transform: scale(1.05, 1.20) translate(1.40em, 18.95em);
+  -moz-transform: scale(1.05, 1.20) translate(1.40em, 18.95em);
+}
+
+.java {
+  color: #A4A29D;
+  font-weight: 700;
+  letter-spacing: 0.20em;
+  -webkit-transform: scale(1.05, 1.50) translate(10.50em, 12.60em);
+  -moz-transform: scale(1.05, 1.50) translate(10.50em, 12.60em);
+}
