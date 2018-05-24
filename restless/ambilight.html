@@ -78,7 +78,7 @@ body {
 </div>-->
 <div class="wrapper">
   <div class="player">
-    <video id="video" src="restless.mp4" controls></video>
+    <video id="video" src="restless.mp4" autoplay="autoplay" loop="loop"></video>
     
     <!-- Available video files:
     sports.mp4
@@ -111,7 +111,17 @@ window.onload = function() {
   video.addEventListener('ended', function() {
     stopTimer();
   });
+
 }
+
+ $(document).ready( function() {
+
+      var video = document.getElementById("video");
+video.autoplay = true;
+video.load(); 
+    
+});
+
 //# sourceURL=pen.js
 </script>
 </body></html>

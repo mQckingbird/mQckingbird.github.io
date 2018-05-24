@@ -1,0 +1,215 @@
+
+<!DOCTYPE html><html lang='en' class=''>
+<head><script src='//static.codepen.io/assets/editor/live/console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js'></script><script src='//static.codepen.io/assets/editor/live/css_live_reload_init-890dc39bb89183d4642d58b1ae5376a0193342f9aed88ea04330dc14c8d52f55.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/matikbird/pen/ZodYQq" />
+
+
+<style class="cp-pen-styles">@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+
+html {
+  background-color: #d6b998;
+  font-family: 'Raleway';
+  letter-spacing: .5px;
+}
+
+#feet {
+  position: absolute;
+  width: 5%;
+  margin-left: 25%;
+}
+
+.foot{
+	height: 40px;
+}
+
+.foot img {
+	height: 25px;
+  display: none;
+}
+
+.right-foot {
+  padding-left: 25px;
+}
+
+.quote-box {
+  border: .5px solid #311414;
+  padding: 50px;
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+}
+
+.quote-box img {
+  width: 150px;
+  position: relative;
+  top: -120px;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.quote-author {
+  width: 275px;
+  background-color: #311414;
+  font-size: 18px;
+  font-weight: 500;
+  color: #d6b998;
+  padding: 10px 0px 10px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: -85px;
+}
+
+.btns {
+ width: 40%;
+ margin-left: 30%;
+ margin-right: 30%;
+ margin-bottom: 100px;
+ height: 100px;
+ padding: 50px;
+}
+
+.btn {
+  border: .5px solid;
+  border-color: #311414;
+}
+
+.new-quote {
+  text-align: center;
+  text-decoration: none;
+}
+
+.new-quote p {
+  padding: 10px;  
+  color: #311414;
+  font-size: 18px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+}
+
+.new-quote p:hover {
+  color: white;
+}
+
+.tweet-bird {
+  margin-left: 48.5%;
+  margin-right: 48.5%;
+  width: 3%;
+  padding-top: 20px;
+}
+
+.tweet-quote {
+  text-align: center;
+  font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+</style></head><body>
+<div class="main">
+
+  
+<div id="feet">
+  <div class="foot">
+    <img src="https://s26.postimg.org/3ux2z0u3t/left-foot.png" class="left-foot">
+  </div>    
+
+  <div class="foot">
+    <img src="https://s26.postimg.org/wxbd1uo3d/right-feet.png" class="right-foot">
+  </div>   
+
+  <div class="foot">
+    <img src="https://s26.postimg.org/3ux2z0u3t/left-foot.png" class="left-foot">
+  </div>    
+
+  <div class="foot">
+    <img src="https://s26.postimg.org/wxbd1uo3d/right-feet.png" class="right-foot">
+  </div>   
+
+  <div class="foot">
+    <img src="https://s26.postimg.org/3ux2z0u3t/left-foot.png" class="left-foot">
+  </div>    
+
+  <div class="foot">
+    <img src="https://s26.postimg.org/wxbd1uo3d/right-feet.png" class="right-foot">
+  </div>   
+
+  <div class="foot">
+    <img src="https://s26.postimg.org/3ux2z0u3t/left-foot.png" class="left-foot">
+  </div>    
+
+  <div class="foot">
+    <img src="https://s26.postimg.org/wxbd1uo3d/right-feet.png" class="right-foot">
+  </div>   
+</div>
+  
+  <div class="quote-box">
+    <img src="https://s26.postimg.org/pobdtm3ax/HP-image-back.png">
+    <p class="quote-text">“”</p>
+    <p class="quote-author">""</p>
+  </div>
+
+  <div class="btns">
+    <a href="#" class="new-quote">
+      <p class="btn">New Quote</p>
+    </a>
+    <a href="#" class="tweet"><img src="https://s26.postimg.org/jjblrnwx5/tweet.png" class="tweet-bird">
+    </a>
+    <p class="tweet-quote hidden">Tweet This Quote</p>
+  </div>
+
+</div>
+<script src='//static.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+<script >var quoteText;
+
+function steps (){
+        $(".left-foot").first().fadeIn(1500).delay(1000).fadeOut(2000);
+        $(".right-foot").first().delay(1000).fadeIn(1500).delay(1000).fadeOut(2000);
+        $(".left-foot:eq(1)").delay(2000).fadeIn(1500).delay(1000).fadeOut(2000);
+        $(".right-foot:eq(1)").delay(3000).fadeIn(1500).delay(1000).fadeOut(2000);
+        $(".left-foot:eq(2)").delay(4000).fadeIn(1500).delay(1000).fadeOut(2000);
+        $(".right-foot:eq(2)").delay(5000).fadeIn(1500).delay(1000).fadeOut(2000);
+        $(".left-foot:eq(3)").delay(6000).fadeIn(1500).delay(1000).fadeOut(1500);
+        $(".right-foot:eq(3)").delay(7000).fadeIn(1500).delay(1000).fadeOut(1500);
+};
+
+$(document).ready(function(){
+    steps();
+    setInterval(steps,15000);
+});
+
+
+$(document).ready(function(){
+  $(".new-quote").click();
+});
+
+$(".new-quote").click(function() {
+  $.getJSON(
+    "https://quotes.djones.co/api/collection/HarryPotterQuotes/random",
+    function(response) {
+      $(".quote-text").html('"' + response.content + '"');
+      $(".quote-author").html("- " + response.author);
+      quoteText = "\"" + response.content + "\"" + " - " + response.author;
+    });
+});
+
+      $(".tweet").click(function() {
+        window.open("https://twitter.com/intent/tweet?text=" +  encodeURI(quoteText));
+      });
+
+$(".tweet-bird").hover(function(){
+  $(".tweet-quote").toggleClass('hidden'); 
+});
+//# sourceURL=pen.js
+</script>
+</body></html>

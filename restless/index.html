@@ -578,7 +578,7 @@ html {
 <div class="modal">
   <div class="iframe-container">
    <article class="video"> 
-    <video>
+    <video id="target_video" autoplay="autoplay" loop="loop">
       
       <!-- MP4 must be first for iPad! 
       removed this as it was causing me guff!
@@ -609,6 +609,9 @@ html {
 
       $('.modal').addClass('open');
       $('article.video').siPlayer(true);
+      var video = document.getElementById("target_video");
+video.autoplay = true;
+video.load(); 
     },5000)
     
 });
